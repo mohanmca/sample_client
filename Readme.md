@@ -20,14 +20,12 @@ chmod a+x run.sh
    3. Test with wrong url
    4. Answer the question
 
-## Answers
 
-
-1. How long did it take you to solve the above exercise? Please be honest, we evaluate your answer to this question based on your experience.
+## How long did it take you to solve the above exercise? Please be honest, we evaluate your answer to this question based on your experience.
 
 I spent 4 hours due to spring magic, but I chose to use Spring since it would be useful to me in another task at the office. I couldn't use the UserClient itself Main as well a class under test
 
-2. Please describe, in your own words, the main difference between a monolithic system and a microservice architecture.
+## Please describe, in your own words, the main difference between a monolithic system and a microservice architecture.
 
 MicroService architecture is a collection of services, working together as one-service and highly resilient and fault tolerant. The cost of building and maintaining is higher compared to monolithic systems, Hence requires lots of consideration before choosing MicroService architecture.
 Generally they follow 12 factors defined at https://12factor.net/. Generally they are not suitable for smaller startups. It gives a bit of freedom for the team (2-pizza team), As long as they keep their services backward compatible and ensure the availability they can build applications on any platform. Mostly they are communicated using HTTP/HTTPS and read using REST-ful and GraphQL based 
@@ -39,13 +37,8 @@ Is it javascript ui frameworks?
 1. React
 2. Vue.js
 
-How play the words container, docker and Kubernetes together?
+## How play the words container, docker and Kubernetes together?
 
 Containers were nothing but basic namespace process level isolation inside Linux, it was initially implemented using c-groups by google. Docker provided higher level APIs and CLI and Provided a way to pack everything required to run a process, later many other implementations were introduced, containers are now standardized and supported by default in Linux. Containers across the system should be coordinated for distributed systems, despite the fact that docker-swarm, mesos and kubernetes were competing in that space. K8S emerged as an industry standard and supported by all the cloud vendors. 
     1. Two famous commercial vendors that support hybrid implementations are RedHat OpenShift and Pivotal CloudFoundry
     1. Apache Mesos already died, and Docker swarm still being used rarely for local development setups
- 
-
-
-```
-git branch --set-upstream-to=origin/main main
