@@ -11,7 +11,7 @@ chmod a+x run.sh
 2. Hit with netty-DNS error, and googled and updated dependency with classifier for Mac-M1 processor
 3. Wasted time in Intercepting WebClient Junit Test and I tried to intercept the request and produce response (without mockserver)
    1. After 2hrs, I gave-it-up, and fallen back to time-tested mock web server
-   2. I had other choice to use MockBean and expect the API, but generally I felt mocking API to very ugly and useless for my work
+   2. I had other choice to use MockBean and expect the API, but generally I felt mocking API is very ugly and useless for my work
    3. Too much of mock-api eventually becomes useless, I am not able to reproduce production problems using mock-api heavy test-cases
 4. 30 Minutes with mock-test  and mock-web-server
 5. Add bells and whistles - 45 minutes
