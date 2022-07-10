@@ -1,4 +1,4 @@
-package com.communda.model;
+package com.commonda.model;
 
 public class UserDTO {
 

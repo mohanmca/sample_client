@@ -8,7 +8,7 @@ chmod a+x run.sh
 ## Did i miss anything?
 
 1. Yes, I didn't make UserClient as executable class, it would make little complicated to test it
-2. In Spring application, It is generally preferable not-to-test the entry point, hence entry point is "com.communda.Main"
+2. In Spring application, It is generally preferable not-to-test the entry point, hence entry point is "com.commonda.Main"
 
 ## List of tasks, how I did it, and time taken
 

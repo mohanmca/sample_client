@@ -1,7 +1,7 @@
-package com.communda.service;
+package com.commonda.service;
 
-import com.communda.model.ResultDTO;
-import com.communda.model.User;
+import com.commonda.model.ResultDTO;
+import com.commonda.model.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

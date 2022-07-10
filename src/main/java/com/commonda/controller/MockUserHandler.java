@@ -1,6 +1,6 @@
-package com.communda.controller;
+package com.commonda.controller;
 
-import com.communda.model.UserDTO;
+import com.commonda.model.UserDTO;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.BodyInserters;

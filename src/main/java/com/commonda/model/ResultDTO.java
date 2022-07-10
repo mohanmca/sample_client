@@ -1,4 +1,4 @@
-package com.communda.model;
+package com.commonda.model;
 
 import java.util.List;
 

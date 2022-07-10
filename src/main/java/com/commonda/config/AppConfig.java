@@ -1,4 +1,4 @@
-package com.communda.config;
+package com.commonda.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
